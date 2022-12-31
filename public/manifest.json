@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Umbrella",
+  "name": "Site d'informations et de préventions sur l'utilisation de mot de passe.",
   "icons": [
     {
       "src": "favicon.ico",
