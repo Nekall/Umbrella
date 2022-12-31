@@ -1,0 +1,33 @@
+// Fonts
+@font-face {
+    font-family: "Albra";
+    src: font-files("../assets/fonts/AlbraMedium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: font-files("../assets/fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Colors 
+$primary-bg: #1a1d1f;
+$secondary-bg: #272a2c;
+$primary-text: #ffffff;
+$secondary-text: #b19b7e;
+
+// Globals
+body {
+    margin: 0;
+    font-family: "Raleway", 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: $primary-bg;
+    color: $primary-text;
+  }
+  
