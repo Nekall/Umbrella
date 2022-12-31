@@ -2,6 +2,9 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
+// Styles
+import styles from "../../styles/pages/home.module.scss";
+
 const Home = () => {
 
   // Data Header
@@ -13,9 +16,9 @@ const Home = () => {
   ];
 
   return (
-    <div>
+    <div className={styles.__home}>
       <Header links={links} />
-      <p>Content</p>
+      <p className={styles.__fake_content}>Content</p>
       <Footer />
     </div>
   );
