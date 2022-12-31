@@ -1,0 +1,13 @@
+.__maintenance{
+    background-color: $primary-bg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+    h1{
+        margin: 0;
+        font-family: "Albra";
+    }
+}

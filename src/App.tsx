@@ -1,7 +1,9 @@
-import Home from "./pages/Home";
+// Pages
+//import Home from "./pages/Home";
+import Maintenance from "./pages/Maintenance";
 
 const App = () => {
-  return <Home />;
+  return <Maintenance />;
 };
 
 export default App;
