@@ -1,0 +1,19 @@
+.__three_cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    padding: 5%;
+
+    .__card{
+        padding: 50px;
+        
+
+        h2{
+            color: $secondary-text;
+            margin: 0;
+        }
+        p{
+            margin: 5px 0;
+        }
+    }
+}

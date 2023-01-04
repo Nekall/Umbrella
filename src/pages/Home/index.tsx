@@ -1,6 +1,7 @@
 // Components
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import ThreeCards from "../../components/ThreeCards";
 
 // Styles
 import styles from "../../styles/pages/home.module.scss";
@@ -18,6 +19,7 @@ const Home = () => {
   return (
     <div className={styles.__home}>
       <Header links={links} />
+      <ThreeCards />
       <p className={styles.__fake_content}>Content</p>
       <Footer />
     </div>
