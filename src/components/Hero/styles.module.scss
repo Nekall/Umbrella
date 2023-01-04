@@ -1,0 +1,33 @@
+.__hero {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 50px 0;
+    padding: 5%;
+
+    .__box_1 {
+
+        h1,
+        p {
+            width: 300px;
+            display: grid;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .__box_2 {
+        text-align: center;
+
+        img {
+            transform: rotate(0.05turn);
+            width: 300px;
+        }
+    }
+}
