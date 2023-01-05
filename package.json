@@ -15,8 +15,7 @@
     "typescript": "^4.9.4"
   },
   "scripts": {
-    "dev": "craco start",
-    "start": "REACT_APP_MAINTENANCE=true craco start",
+    "start": "craco start",
     "build": "REACT_APP_MAINTENANCE=true craco build"
   },
   "eslintConfig": {
