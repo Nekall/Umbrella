@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "REACT_APP_MAINTENANCE=true craco build"
+    "build": "craco build"
   },
   "eslintConfig": {
     "extends": [
