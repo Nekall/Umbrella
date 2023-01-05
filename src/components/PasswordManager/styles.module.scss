@@ -1,0 +1,26 @@
+.__password_manager {
+    border: solid red 1px;
+    display: grid;
+    padding: 10% 5%;
+
+    h2 {
+        font-family: "Albra";
+    }
+
+    table {
+        margin: 0 auto;
+        background-color: $secondary-bg;
+        border-radius: 8px;
+        width: 100%;
+        min-height: 450px;
+
+        thead>tr>th {
+            font-weight: normal;
+        }
+
+        th,
+        td {
+            padding: 20px;
+        }
+    }
+}

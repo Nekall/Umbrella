@@ -3,6 +3,7 @@ import Hero from "../../components/Hero";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import ThreeCards from "../../components/ThreeCards";
+import PasswordManager from "../../components/PasswordManager";
 import PasswordGenerator from "../../components/PasswordGenerator";
 
 // Styles
@@ -22,8 +23,9 @@ const Home = () => {
       <Header links={links} />
       <Hero />
       <ThreeCards />
-      <PasswordGenerator />
       <p className={styles.__fake_content}>Content</p>
+      <PasswordGenerator />
+      <PasswordManager />
       <Footer />
     </div>
   );
