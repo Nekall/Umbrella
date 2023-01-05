@@ -1,14 +1,14 @@
 // Components
+import Hero from "../../components/Hero";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import ThreeCards from "../../components/ThreeCards";
-import Hero from "../../components/Hero";
+import PasswordGenerator from "../../components/PasswordGenerator";
 
 // Styles
 import styles from "../../styles/pages/home.module.scss";
 
 const Home = () => {
-
   // Data Header
   const links = [
     { id: 1, name: "Lorem ipsum", url: "#" },
@@ -22,6 +22,7 @@ const Home = () => {
       <Header links={links} />
       <Hero />
       <ThreeCards />
+      <PasswordGenerator />
       <p className={styles.__fake_content}>Content</p>
       <Footer />
     </div>

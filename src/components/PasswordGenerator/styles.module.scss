@@ -1,0 +1,42 @@
+.__password_generator {
+    display: grid;
+    padding: 5%;
+
+    .__description {
+        span {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    }
+
+    .__table {
+        text-align: center;
+        margin: 0 auto;
+
+        td {
+            border-bottom: solid 1px #8b8b8b;
+            margin: -5px;
+            padding: 15px;
+            width: 150px;
+        }
+
+        .__middle_column {
+            background-color: $secondary-bg;
+        }
+
+        .__last_row {
+            border: none;
+        }
+
+        input {
+            background-color: transparent;
+            border: none;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        button {
+            cursor: pointer;
+        }
+    }
+}
