@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 
 const PasswordManager = () => {
   return (
-    <div className={styles.__password_manager}>
+    <div id="Gestionnaire" className={styles.__password_manager}>
       <h2>Gestionnaire de mot de passe :</h2>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis

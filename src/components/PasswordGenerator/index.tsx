@@ -31,7 +31,7 @@ const PasswordGenerator = () => {
   };
 
   return (
-    <div className={styles.__password_generator}>
+    <div id="Generateur" className={styles.__password_generator}>
       <h2 className={styles.__title}>
         Generer des mots de passes efficaces & sécurisés.
       </h2>

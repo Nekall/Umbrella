@@ -21,7 +21,7 @@ const Header = ({ links }: HeaderProps) => {
     }
 
   return (
-    <header className={styles.__header}>
+    <header id="Accueil" className={styles.__header}>
       <div className={styles.__brand}>
         <img className={styles.__logo} src={logo} alt="logo umbrella" />
         <span className={styles.__name}>Umbrella</span>

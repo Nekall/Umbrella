@@ -6,7 +6,7 @@ import logo from "../../assets/images/logo.png";
 
 const Footer = () => {
   return (
-    <footer className={styles.__footer}>
+    <footer id="Lien-Utiles" className={styles.__footer}>
       <div className={styles.__brand}>
         <img className={styles.__logo} src={logo} alt="logo umbrella" />
         <span className={styles.__name}>Umbrella</span>

@@ -12,10 +12,10 @@ import styles from "../../styles/pages/home.module.scss";
 const Home = () => {
   // Data Header
   const links = [
-    { id: 1, name: "Lorem ipsum", url: "#" },
-    { id: 2, name: "Consectetur", url: "#" },
-    { id: 3, name: "Adipiscing", url: "#" },
-    { id: 4, name: "Eiusmod", url: "#" },
+    { id: 1, name: "Hacks", url: "#Hacks" },
+    { id: 2, name: "Generateur", url: "#Generateur" },
+    { id: 3, name: "Gestionnaire", url: "#Gestionnaire" },
+    { id: 4, name: "Liens Utiles", url: "#Lien-Utiles" },
   ];
 
   return (
