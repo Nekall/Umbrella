@@ -1,0 +1,15 @@
+.__hacks {
+    display: grid;
+    padding: 5%;
+
+    h2 {
+        font-family: "Albra";
+    }
+
+    .__pwd_table {
+        background-color: $secondary-bg;
+        border-radius: 8px;
+        height: 600px;
+        width: 70%;
+    }
+}

@@ -1,5 +1,6 @@
 // Components
 import Hero from "../../components/Hero";
+import Hacks from "../../components/Hacks";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import ThreeCards from "../../components/ThreeCards";
@@ -23,7 +24,7 @@ const Home = () => {
       <Header links={links} />
       <Hero />
       <ThreeCards />
-      <p className={styles.__fake_content}>Content</p>
+      <Hacks />
       <PasswordGenerator />
       <PasswordManager />
       <Footer />
