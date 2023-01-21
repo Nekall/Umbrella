@@ -22,12 +22,14 @@ const Home = () => {
   return (
     <div className={styles.__home}>
       <Header links={links} />
-      <Hero />
-      <ThreeCards />
-      <Hacks />
-      <PasswordGenerator />
-      <PasswordManager />
-      <Footer />
+      <div className={styles.__container}>
+        <Hero />
+        <ThreeCards />
+        <Hacks />
+        <PasswordGenerator />
+        <PasswordManager />
+        <Footer />
+      </div>
     </div>
   );
 };
