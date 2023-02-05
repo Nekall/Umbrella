@@ -1,21 +1,25 @@
+import { ReactElement } from "react";
+
 // Assets
 import umbrella from "../../assets/images/logo.png";
 
 // Styles
 import styles from "./styles.module.scss";
 
-const Hero = () => {
+interface HeroProps {
+  heroTitle: ReactElement<any, any>;
+  heroDescription: string;
+}
+
+const Hero = ({ heroTitle, heroDescription }: HeroProps) => {
   return (
     <div className={styles.__hero}>
       <div className={styles.__box_1}>
         <h1>
-          Lorem <br />& Ipsum
+          {heroTitle}
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ratione
-          sed facere aperiam accusantium iure repellat nihil voluptatem qui
-          deleniti quibusdam dolorum, quam dolores corporis, aliquam ad
-          perferendis totam dolore.
+          {heroDescription}
         </p>
       </div>
       <div className={styles.__box_2}>

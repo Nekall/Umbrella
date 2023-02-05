@@ -1,9 +1,19 @@
-import { useState } from "react";
+import { ReactElement, useState } from "react";
 
 // Styles
 import styles from "./styles.module.scss";
 
-const PasswordGenerator = () => {
+interface PasswordGeneratorProps {
+  pwdgTitle: string;
+  pwdgDescription: ReactElement<any, any>;
+  pwdgButton: ReactElement<any, any>;
+}
+
+const PasswordGenerator = ({
+  pwdgTitle,
+  pwdgDescription,
+  pwdgButton,
+}: PasswordGeneratorProps) => {
   const [password, setPassword] = useState<string>("Simple-Mémo");
 
   const [randomString, setRandomString] = useState({
@@ -32,14 +42,8 @@ const PasswordGenerator = () => {
 
   return (
     <div id="Generateur" className={styles.__password_generator}>
-      <h2 className={styles.__title}>
-        Generer des mots de passes efficaces & sécurisés.
-      </h2>
-      <p className={styles.__description}>
-        <span>Logique :</span> Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.
-      </p>
+      <h2 className={styles.__title}>{pwdgTitle}</h2>
+      <p className={styles.__description}>{pwdgDescription}</p>
       <div className={styles.__table}>
         <table>
           <tbody>
@@ -91,9 +95,7 @@ const PasswordGenerator = () => {
               <td className={styles.__last_row}></td>
               <td className={`${styles.__last_row} ${styles.__middle_column}`}>
                 <button onClick={() => updateRandomString()}>
-                  Generer
-                  <br />
-                  des mots de passes
+                  {pwdgButton}
                 </button>
               </td>
               <td className={styles.__last_row}></td>
