@@ -4,6 +4,7 @@ import Hacks from "../../components/Hacks";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import ThreeCards from "../../components/ThreeCards";
+import ScrollToTop from "../../components/ScrollToTop";
 import PasswordManager from "../../components/PasswordManager";
 import PasswordGenerator from "../../components/PasswordGenerator";
 
@@ -126,6 +127,7 @@ const Home = () => {
 
   return (
     <div className={styles.__home}>
+      <ScrollToTop />
       <Header links={links} />
       <div className={styles.__container}>
         <Hero heroTitle={heroTitle} heroDescription={heroDescription} />
