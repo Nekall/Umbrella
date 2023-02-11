@@ -17,7 +17,7 @@ const Hacks = ({
   hSubContent,
 }: HacksProps) => {
   return (
-    <div className={styles.__hacks}>
+    <div id="Hacks" className={styles.__hacks}>
       <h2>{hTitle}</h2>
       <p>{hContent}</p>
       <br />
