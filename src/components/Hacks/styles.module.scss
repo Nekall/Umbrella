@@ -12,9 +12,35 @@
         min-width: 90%;
         text-align: center;
 
-        table{
+        table {
             height: 100%;
             width: 100%;
+            table-layout: fixed;
+
+            td:nth-child(1) {
+                background-color: #515151;
+            }
+
+            .__pink {
+                background-color: #7e4287;
+            }
+
+            .__red {
+                background-color: #a12626;
+            }
+
+            .__orange {
+                background-color: #bf6306;
+            }
+
+            .__yellow {
+                background-color: #c4992e;
+            }
+
+            .__green {
+                background-color: #1c5d20;
+            }
+
         }
     }
 }
