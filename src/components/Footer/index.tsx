@@ -101,8 +101,7 @@ const Footer = () => {
       </div>
       <hr />
       <p className={styles.__sentence}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit voluptatem
-        possimus sequi repellat saepe aliquid quas abcaecati officia tempora.
+      La sécurité informatique commence par vous. Soyez vigilant et protégez-vous contre les menaces en ligne.
       </p>
       <hr />
       <p className={styles.__signature}>

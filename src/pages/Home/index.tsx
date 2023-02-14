@@ -85,34 +85,34 @@ const Home = () => {
     {
       id: 1,
       icon: "🔑",
-      title: "Card 1",
+      title: "Sécurité du mot de passe",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quidem amet ea recusandae architecto quas eos sapiente minus repudiandae ipsum accusantium earum ut, veritatis voluptates eveniet vitae. Sed neque, pariatur eveniet iure corporis ullam, enim aspernatur impedit ab officiis vitae qui at sapiente necessitatibus beatae, iste asperiores illum est minima.",
+        "    Un mot de passe fort est crucial pour protéger nos comptes en ligne. Il doit être unique, contenir des lettres, des chiffres et des caractères spéciaux, et être changé régulièrement pour maintenir un niveau de sécurité élevé.",
     },
     {
       id: 2,
       icon: "🛡️",
-      title: "Card 2",
+      title: "Confidentialité du mot de passe",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quidem amet ea recusandae architecto quas eos sapiente minus repudiandae ipsum accusantium earum ut, veritatis voluptates eveniet vitae. Sed neque, pariatur eveniet iure corporis ullam, enim aspernatur impedit ab officiis vitae qui at sapiente necessitatibus beatae, iste asperiores illum est minima.",
+        "Ne jamais communiquer son mot de passe est essentiel pour éviter les risques de sécurité. Les mots de passe sont des informations personnelles qui ne devraient être connues que de leur propriétaire. Gardons-les en sécurité.",
     },
     {
       id: 3,
       icon: "🔒",
-      title: "Card 3",
+      title: "Gestion des mots de passe",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quidem amet ea recusandae architecto quas eos sapiente minus repudiandae ipsum accusantium earum ut, veritatis voluptates eveniet vitae. Sed neque, pariatur eveniet iure corporis ullam, enim aspernatur impedit ab officiis vitae qui at sapiente necessitatibus beatae, iste asperiores illum est minima.",
+        "Les systèmes de gestion de mots de passe facilitent la gestion de plusieurs mots de passe forts et uniques. Ils stockent et protègent les mots de passe, génèrent des mots de passe aléatoires, auto-remplissent les formulaires et synchronisent les mots de passe sur tous les appareils. Choisissons un système fiable et sécurisé pour faciliter notre vie en ligne.",
     },
   ];
 
   // Data Hero
   const heroTitle = (
     <>
-      Lorem <br />& Ipsum
+      Sécurité <br />& Prévention
     </>
   );
   const heroDescription =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ratione sed facere aperiam accusantium iure repellat nihil voluptatem qui deleniti quibusdam dolorum, quam dolores corporis, aliquam ad perferendis totam dolore.";
+    "Ne prenez pas de risques avec la sécurité de vos informations personnelles en ligne. Adoptez ces bonnes pratiques de gestion de mots de passe pour protéger vos comptes.";
 
   // Data Hacks
   const hTitle = "Hacks.";
