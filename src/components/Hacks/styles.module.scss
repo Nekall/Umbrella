@@ -8,7 +8,13 @@
     .__pwd_table {
         background-color: $secondary-bg;
         border-radius: 8px;
-        height: 600px;
-        width: 70%;
+        min-height: 600px;
+        min-width: 90%;
+        text-align: center;
+
+        table{
+            height: 100%;
+            width: 100%;
+        }
     }
 }
