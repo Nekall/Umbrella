@@ -5,7 +5,7 @@ interface HacksProps {
   hTitle: string;
   hContent: string;
   hTitle2: string;
-  hContent2: string;
+  hContent2: any;
   hSubContent: string;
 }
 

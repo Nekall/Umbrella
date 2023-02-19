@@ -68,8 +68,12 @@ const Home = () => {
   const pwdgTitle = "Generer des mots de passes efficaces & sécurisés.";
   const pwdgDescription = (
     <>
-      <span>Logique :</span> Lorem ipsum dolor sit amet, consectetur adipiscing
-      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <span>Logique :</span> Peur d'utiliser un gestionnaire de mot de passe ?
+      Pas confiance ? Pas de problème, vous pouvez toujours utiliser un carnet
+      (a l'ancienne, du bon vieux papier). Mais pour éviter de ce retrouver avec
+      carnet avec vos mot de passe en claire, vous pouvez utiliser une logique
+      ou au milieu, au début ou à la fin de votre mot de passe vous ajouter un
+      mot facile à retenir.
     </>
   );
   const pwdgButton = (
@@ -87,7 +91,7 @@ const Home = () => {
       icon: "🔑",
       title: "Sécurité du mot de passe",
       description:
-        "    Un mot de passe fort est crucial pour protéger nos comptes en ligne. Il doit être unique, contenir des lettres, des chiffres et des caractères spéciaux, et être changé régulièrement pour maintenir un niveau de sécurité élevé.",
+        "Un mot de passe fort est crucial pour protéger nos comptes en ligne. Il doit être unique, contenir des lettres, des chiffres et des caractères spéciaux, et être changé régulièrement pour maintenir un niveau de sécurité élevé.",
     },
     {
       id: 2,
@@ -117,13 +121,19 @@ const Home = () => {
   // Data Hacks
   const hTitle = "Hacks.";
   const hContent =
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam voluptate consequatur culpa dolor aut? Deleniti officiis porro provident dolorum, corrupti harum voluptatem dolorem rem facere excepturi modi. Ex dolor, blanditiis quisquam vero omnis velit excepturi eos earum. Vel, doloribus culpa.";
+    "Le brute-force est une méthode utilisée pour deviner un mot de passe en essayant toutes les combinaisons possibles de lettres, chiffres et caractères spéciaux. Les pirates informatiques utilisent souvent cette méthode pour accéder à des comptes en ligne protégés par un mot de passe. Pour se protéger contre le brute-force, il est important de choisir des mots de passe forts, longs et complexes, ainsi que de prendre des mesures pour protéger vos comptes, comme l'utilisation de l'authentification à deux facteurs.";
   const hTitle2 =
-    "Temps qu'il faut à un hacker pour bruteforce un mot de passe en 2022 :";
-  const hContent2 =
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, perspiciatis a, placeat corporis, quaerat facilis fugit corrupti aspernatur nostrum non ratione. Quisquam, animi? Eaque mollitia quis sint suscipit saepe eum laudantium vel nostrum, ratione provident laborum vero repudiandae optio similique explicabo, laboriosam officiis molestiae unde tempora dignissimos. Necessitatibus sed dolor quam, id in aspernatur pariatur nobis? Beatae cupiditate, magnam, saepe maxime dignissimos atque maiores sed minima ratione dicta optio ad error, minus repellendus? Quae, iusto similique! Laboriosam similique deserunt eaque.";
+    "Temps qu'il faut à un hacker pour brute-force un mot de passe en 2022 :";
+  const hContent2 = (
+    <>
+      Source :{" "}
+      <a href="https://www.hivesystems.io/blog/are-your-passwords-in-the-green">
+        HiveSystems
+      </a>
+    </>
+  );
   const hSubContent =
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est similique porro necessitatibus nemo beatae doloribus.";
+    "Toutes ces valeurs sont à titre indicatif et peuvent changer en fonction de la machine utilisée, de la puissance de calcul, etc.";
 
   return (
     <div className={styles.__home}>

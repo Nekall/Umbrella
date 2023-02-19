@@ -17,9 +17,10 @@ const PasswordManager = ({ pwdManagers }: PasswordManagerProps) => {
     <div id="Gestionnaire" className={styles.__password_manager}>
       <h2>Gestionnaire de mot de passe.</h2>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
-        culpa libero, cumque unde fugiat obcaecati doloremque similique tenetur
-        earum autem veniam voluptates consectetur cupiditate soluta.
+        Voici une liste de gestionnaires de mot de passe. Il est important de
+        choisir un gestionnaire de mot de passe qui vous convient. Il est
+        recommandé d'utiliser un gestionnaire de mot de passe pour générer des
+        mots de passe forts et les stocker en ligne de manière sécurisée.
       </p>
       <div>
         <table>
