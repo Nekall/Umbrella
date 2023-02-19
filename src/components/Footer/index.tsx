@@ -62,7 +62,7 @@ const Footer = () => {
         {
           name: "Kaspersky Blog",
           url: "https://www.kaspersky.fr/blog/",
-        }
+        },
       ],
     },
   ];
