@@ -1,6 +1,8 @@
 <img src="https://raw.githubusercontent.com/Nekall/Umbrella/main/src/assets/images/logo.png" style="height: 75px"/>      
-# Umbrella      
       
+# Umbrella    
+      
+
 Site d'informations et de préventions sur l'utilisation de mot de passe       
       
 ![Umbrella Version](https://img.shields.io/badge/version-v1-white)      
@@ -12,7 +14,7 @@ Ne prenez pas de risques avec la sécurité de vos informations personnelles en 
       
 ## Screenshot      
       
-![Umbrella Screenshot](https://raw.githubusercontent.com/Nekall/Umbrella/main/public/images/Capture-Umbrella.png)      
+![Umbrella Screenshot](https://raw.githubusercontent.com/Nekall/Umbrella/stage/public/images/Capture-Umbrella.png)      
 ## Tech Stack & Infos            
         
 **Type:** OnePage   
