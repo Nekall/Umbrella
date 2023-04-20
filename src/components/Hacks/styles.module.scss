@@ -8,6 +8,17 @@
         font-family: "Albra";
     }
 
+    a {
+        color: $primary-text;
+        text-decoration: none;
+        transition: 0.2s;
+
+        &:hover {
+            color: #9f9f9f;
+            text-decoration: underline;
+        }
+    }
+
     .__pwd_table {
         background-color: $secondary-bg;
         border-radius: 8px;
@@ -44,6 +55,17 @@
                 background-color: #1c5d20;
             }
 
+        }
+    }
+
+    @media only screen and (max-width: 425px){
+        .__pwd_table {
+            min-width: 100%;
+            font-size: 0.8rem;
+
+            table>thead>tr>th {
+                font-size: 0.5rem;
+            }
         }
     }
 }

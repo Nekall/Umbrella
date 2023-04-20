@@ -27,9 +27,9 @@ const PasswordManager = ({ pwdManagers }: PasswordManagerProps) => {
           <thead>
             <tr>
               <th>NOM</th>
-              <th>FONCTIONNALITES</th>
+              <th className={styles.__features}>FONCTIONNALITES</th>
               <th>PLATEFORMES</th>
-              <th>PRIX</th>
+              <th className={styles.__price}>PRIX</th>
             </tr>
           </thead>
           <tbody>
@@ -38,9 +38,9 @@ const PasswordManager = ({ pwdManagers }: PasswordManagerProps) => {
                 <td>
                   <a href={pwdManager.link} target="_blank" rel="noopener noreferrer">{pwdManager.name}</a>
                 </td>
-                <td>{pwdManager.features}</td>
+                <td className={styles.__features}>{pwdManager.features}</td>
                 <td>{pwdManager.platforms}</td>
-                <td>{pwdManager.price}</td>
+                <td className={styles.__price}>{pwdManager.price}</td>
               </tr>
             ))}
           </tbody>

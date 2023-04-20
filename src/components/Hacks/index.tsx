@@ -37,123 +37,123 @@ const Hacks = ({
           <tbody>
             <tr>
               <td>4</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__pink}>Instantané</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__pink}>Instant</td>
             </tr>
             <tr>
               <td>5</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__pink}>Instantané</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__pink}>Instant</td>
             </tr>
             <tr>
               <td>6</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__pink}>Instantané</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__pink}>Instant</td>
             </tr>
             <tr>
               <td>7</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__red}>2 secondes</td>
-              <td className={styles.__red}>7 secondes</td>
-              <td className={styles.__red}>31 secondes</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__red}>2 sec</td>
+              <td className={styles.__red}>7 sec</td>
+              <td className={styles.__red}>31 sec</td>
             </tr>
             <tr>
               <td>8</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__red}>2 minutes</td>
-              <td className={styles.__red}>7 minutes</td>
-              <td className={styles.__red}>39 minutes</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__red}>2 min</td>
+              <td className={styles.__red}>7 min</td>
+              <td className={styles.__red}>39 min</td>
             </tr>
             <tr>
               <td>9</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__red}>10 secondes</td>
-              <td className={styles.__red}>1 heure</td>
-              <td className={styles.__red}>7 heures</td>
-              <td className={styles.__red}>2 jours</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__red}>10 sec</td>
+              <td className={styles.__red}>1 h</td>
+              <td className={styles.__red}>7 h</td>
+              <td className={styles.__red}>2 j</td>
             </tr>
             <tr>
               <td>10</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__red}>4 minutes</td>
-              <td className={styles.__red}>3 jours</td>
-              <td className={styles.__red}>3 semaines</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__red}>4 min</td>
+              <td className={styles.__red}>3 j</td>
+              <td className={styles.__red}>3 sem</td>
               <td className={styles.__red}>5 mois</td>
             </tr>
             <tr>
               <td>11</td>
-              <td className={styles.__pink}>Instantané</td>
-              <td className={styles.__red}>2 heures</td>
+              <td className={styles.__pink}>Instant</td>
+              <td className={styles.__red}>2 h</td>
               <td className={styles.__red}>5 mois</td>
-              <td className={styles.__orange}>3 années</td>
-              <td className={styles.__orange}>34 années</td>
+              <td className={styles.__orange}>3 an</td>
+              <td className={styles.__orange}>34 an</td>
             </tr>
             <tr>
               <td>12</td>
-              <td className={styles.__red}>2 secondes</td>
-              <td className={styles.__red}>2 jours</td>
-              <td className={styles.__orange}>24 années</td>
-              <td className={styles.__orange}>200 années</td>
-              <td className={styles.__orange}>3000 années</td>
+              <td className={styles.__red}>2 sec</td>
+              <td className={styles.__red}>2 j</td>
+              <td className={styles.__orange}>24 an</td>
+              <td className={styles.__orange}>200 an</td>
+              <td className={styles.__orange}>3000 an</td>
             </tr>
             <tr>
               <td>13</td>
-              <td className={styles.__red}>19 secondes</td>
+              <td className={styles.__red}>19 sec</td>
               <td className={styles.__red}>2 mois</td>
-              <td className={styles.__orange}>1000 années</td>
-              <td className={styles.__orange}>12000 années</td>
-              <td className={styles.__yellow}>202000 années</td>
+              <td className={styles.__orange}>1000 an</td>
+              <td className={styles.__orange}>12000 an</td>
+              <td className={styles.__yellow}>202000 an</td>
             </tr>
             <tr>
               <td>14</td>
-              <td className={styles.__red}>3 minutes</td>
-              <td className={styles.__orange}>4 années</td>
-              <td className={styles.__orange}>64000 années</td>
-              <td className={styles.__yellow}>750000 années</td>
-              <td className={styles.__yellow}>16m années</td>
+              <td className={styles.__red}>3 min</td>
+              <td className={styles.__orange}>4 an</td>
+              <td className={styles.__orange}>64000 an</td>
+              <td className={styles.__yellow}>750000 an</td>
+              <td className={styles.__yellow}>16m an</td>
             </tr>
             <tr>
               <td>15</td>
-              <td className={styles.__red}>32 minutes</td>
-              <td className={styles.__orange}>100 années</td>
-              <td className={styles.__yellow}>3m années</td>
-              <td className={styles.__yellow}>173m années</td>
-              <td className={styles.__yellow}>3md années</td>
+              <td className={styles.__red}>32 min</td>
+              <td className={styles.__orange}>100 an</td>
+              <td className={styles.__yellow}>3m an</td>
+              <td className={styles.__yellow}>173m an</td>
+              <td className={styles.__yellow}>3md an</td>
             </tr>
             <tr>
               <td>16</td>
-              <td className={styles.__red}>5 heures</td>
-              <td className={styles.__orange}>3000 heures</td>
-              <td className={styles.__yellow}>173m années</td>
-              <td className={styles.__yellow}>3md années</td>
-              <td className={styles.__green}>92md années</td>
+              <td className={styles.__red}>5 h</td>
+              <td className={styles.__orange}>3000 h</td>
+              <td className={styles.__yellow}>173m an</td>
+              <td className={styles.__yellow}>3md an</td>
+              <td className={styles.__green}>92md an</td>
             </tr>
             <tr>
               <td>17</td>
-              <td className={styles.__red}>2 jours</td>
-              <td className={styles.__orange}>69000 années</td>
-              <td className={styles.__yellow}>9md années</td>
-              <td className={styles.__green}>179md années</td>
-              <td className={styles.__green}>7b années</td>
+              <td className={styles.__red}>2 j</td>
+              <td className={styles.__orange}>69000 an</td>
+              <td className={styles.__yellow}>9md an</td>
+              <td className={styles.__green}>179md an</td>
+              <td className={styles.__green}>7b an</td>
             </tr>
             <tr>
               <td>18</td>
-              <td className={styles.__red}>3 semaines</td>
-              <td className={styles.__yellow}>2m années</td>
-              <td className={styles.__green}>467md années</td>
-              <td className={styles.__green}>11b années</td>
-              <td className={styles.__green}>438b années</td>
+              <td className={styles.__red}>3 sem</td>
+              <td className={styles.__yellow}>2m an</td>
+              <td className={styles.__green}>467md an</td>
+              <td className={styles.__green}>11b an</td>
+              <td className={styles.__green}>438b an</td>
             </tr>
           </tbody>
         </table>

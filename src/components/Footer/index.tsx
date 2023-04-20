@@ -114,14 +114,6 @@ const Footer = () => {
         >
           @Nekall
         </a>{" "}
-        &{" "}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/stephanietako"
-        >
-          @stephanietako
-        </a>{" "}
         avec <span>❤</span>
       </p>
     </footer>

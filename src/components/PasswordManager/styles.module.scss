@@ -37,5 +37,18 @@
 
     @media only screen and (max-width: 700px) {
         padding: 10px;
+
+        table {
+            width: 100%;
+            font-size: 0.8rem;
+
+            thead>tr>th {
+                font-size: 0.8rem;
+            }
+
+            .__features, .__price {
+                display: none;
+            }
+        }
     }
 }

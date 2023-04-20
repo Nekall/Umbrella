@@ -1,7 +1,6 @@
 .__password_generator {
     display: grid;
     overflow: hidden;
-    //border: aqua solid 1px;
 
     h2 {
         font-family: "Albra";
@@ -42,10 +41,33 @@
 
         button {
             cursor: pointer;
+            background-color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 5px 10px;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: #c9c9c9;
+            }
         }
     }
 
     @media only screen and (max-width: 700px) {
         padding: 10px;
+
+        .__table {
+            margin: 0 !important;
+            font-size: 0.8rem;
+
+            td {
+                width: 100vw;
+                padding: 2px;
+            }
+
+            button {
+                padding: 2px 4px;
+            }
+        }
     }
 }

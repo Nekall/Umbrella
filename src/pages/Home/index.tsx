@@ -78,7 +78,7 @@ const Home = () => {
   );
   const pwdgButton = (
     <>
-      Generer
+      Générer
       <br />
       des mots de passes
     </>
@@ -127,7 +127,11 @@ const Home = () => {
   const hContent2 = (
     <>
       Source :{" "}
-      <a href="https://www.hivesystems.io/blog/are-your-passwords-in-the-green">
+      <a 
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.hivesystems.io/blog/are-your-passwords-in-the-green"
+      >
         HiveSystems
       </a>
     </>
