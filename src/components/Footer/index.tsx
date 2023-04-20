@@ -106,7 +106,7 @@ const Footer = () => {
       </p>
       <hr />
       <p className={styles.__signature}>
-        Site développer par{" "}
+        Site développé par{" "}
         <a
           target="_blank"
           rel="noopener noreferrer"
